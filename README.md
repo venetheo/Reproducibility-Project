@@ -149,3 +149,33 @@ but also took a shot with the unreproduced ones, to see why they were deemed unr
 | RP^3β      | 0.3511 | 0.2980 | 0.3892 | 0.3103  |
 | CMN        | 0.4195 | 0.3346 | 0.4953 | 0.3592  |
 
+
+*Extension ConvMF* : Results attempting to reproduce the paper by Donghyun Kim et al.
+
+*Dataset:MovieLens1M*
+| Method     | RMSE   |
+|------------|--------|
+| PMF | 0.8971 |
+| ConvMF    | 0.8531 |
+| ConvMF+    | 0.8549 |
+
+*Our results*
+| Method     | RMSE   |
+|------------|--------|
+| PMF | 0.8731 |
+| ConvMF    | 0.8569 |
+| ConvMF+    | 0.8570 |
+
+*Dataset:MovieLens10M*
+| Method     | RMSE   |
+|------------|--------|
+| PMF | 0.8311 |
+| ConvMF    | 0.7958 |
+| ConvMF+    | 0.7958 |
+
+*Our results*
+| Method     | RMSE   |
+|------------|--------|
+| PMF | 0.8668 |
+| ConvMF    | 0.7889 |
+| ConvMF+    | 0.XXXX |
