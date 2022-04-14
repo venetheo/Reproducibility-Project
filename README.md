@@ -30,7 +30,7 @@ but also took a shot with the unreproduced ones, to see why they were deemed unr
 | UserKNN    | 0.3370  | 0.2097 | 0.3917  |
 | ItemKNN    | 0.3373  | 0.2235 | 0.4065  |
 | P<sup>3</sup>α| 0.3361  | 0.2200 | 0.4073  |
-| RP<sup>3</sup>β     | 0.3454  | 0.2230 | 0.4118  |
+| RP<sup>3</sup>β| 0.3454  | 0.2230 | 0.4118  |
 | MCRec      | 0.3047  | 0.2046 | 0.3617  |
 
 *CVAE* : Results from the CVAE method presented at KDD '18.
@@ -104,14 +104,46 @@ but also took a shot with the unreproduced ones, to see why they were deemed unr
 *SPECTRALCF*: Results from SpectralCF method presented at RecSys '18.
 
 *Dataset:MovieLens-1m*
+| Method     | REC@20 | MAP@20 | REC@60 | MAP@60 | REC@100 | MAP@100 |
+|------------|--------|--------|--------|--------|---------|---------|
+| TopPopular | 0.1853 | 0.0576 | 0.3335 | 0.0659 | 0.4244  | 0.0696  |
+| UserKNN CF | 0.2881 | 0.1106 | 0.4780 | 0.1238 | 0.5790  | 0.1290  |
+| ItemKNN CF | 0.2819 | 0.1059 | 0.4712 | 0.1190 | 0.5737  | 0.1243  |
+| P^3α       | 0.2853 | 0.1051 | 0.4808 | 0.1195 | 0.5760  | 0.1248  |
+| RP^3β      | 0.2910 | 0.1088 | 0.4882 | 0.1233 | 0.5884  | 0.1288  |
+| SpectralCF | 0.1843 | 0.0539 | 0.3274 | 0.0618 | 0.4254  | 0.0656  |
 
 *Our results*
+| Method     | REC@20 | MAP@20 | REC@60 | MAP@60 | REC@100 | MAP@100 |
+|------------|--------|--------|--------|--------|---------|---------|
+| TopPopular | 0.1941 | 0.0611 | 0.3399 | 0.0693 | 0.4299  | 0.0729  |
+| UserKNN CF | 0.3013 | 0.1219 | 0.4870 | 0.1349 | 0.5851  | 0.1400  |
+| ItemKNN CF | 0.2972 | 0.1180 | 0.4864 | 0.1309 | 0.5847  | 0.1361  |
+| P^3α       | 0.3025 | 0.1174 | 0.4981 | 0.1316 | 0.5935  | 0.1371  |
+| RP^3β      | 0.3101 | 0.1225 | 0.5071 | 0.1369 | 0.6058  | 0.1424  |
+| SpectralCF | 0.1619 | 0.0488 | 0.3132 | 0.0567 | 0.4037  | 0.0598  |
 
 *MVAE* : Results from the Mult-VAE method presented at WWW '18.
 
 *Dataset:Netflix*
+| Method     | REC@20 | NDCG@20 | REC@50 | NDCG@50 | REC@100 | NDCG@100 |
+|------------|--------|---------|--------|---------|---------|----------|
+| TopPopular | 0.0782 |         | 0.1643 |         |         | 0.1570   |
+| ItemKNN CF | 0.2088 |         | 0.3386 |         |         | 0.3086   |
+| P^3α       | 0.1977 |         | 0.3346 |         |         | 0.2967   |
+| RP^3β      | 0.2196 |         | 0.3560 |         |         | 0.3246   |
+| SLIM       | 0.2551 | 0.2473  | 0.3995 | 0.3196  | 0.5289  | 0.3745   |
+| Mul-VAE    | 0.2626 | 0.2448  | 0.4138 | 0.3192  | 0.5476  | 0.3756   |
 
 *Our results*
+| Method     | REC@20 | NDCG@20 | REC@50 | NDCG@50 | REC@100 | NDCG@100 |
+|------------|--------|---------|--------|---------|---------|----------|
+| TopPopular | 0.0782 |         | 0.1643 |         |         | 0.1570   |
+| ItemKNN CF | 0.2088 |         | 0.3386 |         |         | 0.3086   |
+| P^3α       | 0.1977 |         | 0.3346 |         |         | 0.2967   |
+| RP^3β      | 0.2196 |         | 0.3560 |         |         | 0.3246   |
+| SLIM       | 0.2551 | 0.2473  | 0.3995 | 0.3196  | 0.5289  | 0.3745   |
+| Mul-VAE    | 0.2641 | 0.3163  | 0.4174 | 0.3417  | 0.5508  | 0.3829   |
 
 *CDL* : Results from the CDL method presented at KDD '15.
 
@@ -150,7 +182,7 @@ but also took a shot with the unreproduced ones, to see why they were deemed unr
 | CMN        | 0.4195 | 0.3346 | 0.4953 | 0.3592  |
 
 
-*Extension ConvMF* : Results attempting to reproduce the paper by Donghyun Kim et al.
+*Extension ConvMF* : Results attempting to reproduce the paper by Donghyun Kim et al (One of the papers, the work by Ferrari could not reproduce).
 
 *Dataset:MovieLens1M*
 | Method     | RMSE   |
