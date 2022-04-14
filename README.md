@@ -178,4 +178,4 @@ but also took a shot with the unreproduced ones, to see why they were deemed unr
 |------------|--------|
 | PMF | 0.8668 |
 | ConvMF    | 0.7889 |
-| ConvMF+    | 0.XXXX |
+| ConvMF+    | 0.7863 |
