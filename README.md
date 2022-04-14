@@ -72,12 +72,12 @@ but also took a shot with the unreproduced ones, to see why they were deemed unr
 *Our results*
 | Method        | HR@5   | NDCG@5 | HR@10  | NDCG@10 |
 |---------------|--------|--------|--------|---------|
-| TopPopular    | 0.1663 | 0.1065 | 0.2744 | 0.1412  |
-| UserKNN       | 0.7001 | 0.5033 | 0.8610 | 0.5557  |
-| ItemKNN       | 0.7100 | 0.5092 | 0.8744 | 0.5629  |
-| P<sup>3</sup>α| 0.7008 | 0.5018 | 0.8667 | 0.5559  |
-| RP<sup>3</sup>β| 0.7105 | 0.5116 | 0.8740 | 0.5650  |
-| NeuMF         | 0.7077 | 0.5023 | 0.8757 | 0.5572  |
+| TopPopular    | 0.1665 | 0.1064 | 0.2740 | 0.1409  |
+| UserKNN       | 0.7042 | 0.5051 | 0.8656 | 0.5577  |
+| ItemKNN       | 0.7126 | 0.5118 | 0.8778 | 0.5656  |
+| P<sup>3</sup>α| 0.7016 | 0.5018 | 0.8687 | 0.5563  |
+| RP<sup>3</sup>β| 0.7139 | 0.5141 | 0.8775 | 0.5674  |
+| NeuMF         | 0.7046 | 0.4994 | 0.8766 | 0.5556  |
 
 *Dataset:MovieLens-1m*
 | Method     | HR@5   | NDCG@5 | HR@10  | NDCG@10 |
@@ -93,13 +93,13 @@ but also took a shot with the unreproduced ones, to see why they were deemed unr
 *Our results*
 | Method     | HR@5   | NDCG@5 | HR@10  | NDCG@10 |
 |------------|--------|--------|--------|---------|
-| TopPopular | 0.3043 | 0.2062 | 0.4531 | 0.2542  |
-| UserKNN    | 0.4916 | 0.3328 | 0.6705 | 0.3908  |
-| ItemKNN    | 0.4829 | 0.3328 | 0.6596 | 0.3900  |
-| P<sup>3</sup>α| 0.4811 | 0.3331 | 0.6464 | 0.3867  |
-| RP<sup>3</sup>β| 0.4922 | 0.3409 | 0.6715 | 0.3867  |
-| NeuMF      | 0.5486 | 0.3840 | 0.7120 | 0.4369  |
-| SLIM       | 0.5399 | 0.3745 | 0.7096 | 0.4296  |
+| TopPopular | 0.3048 | 0.2064 | 0.4533 | 0.2542  |
+| UserKNN    | 0.4921 | 0.3319 | 0.6714 | 0.3899  |
+| ItemKNN    | 0.4914 | 0.3377 | 0.6624 | 0.3931  |
+| P<sup>3</sup>α| 0.4687 | 0.3232 | 0.6430 | 0.3796  |
+| RP<sup>3</sup>β| 0.4947 | 0.3418 | 0.6694 | 0.3985  |
+| NeuMF      | 0.5406 | 0.3807 | 0.7098 | 0.4356  |
+| SLIM       | 0.5560 | 0.3939 | 0.7136 | 0.4450  |
 
 *SPECTRALCF*: Results from SpectralCF method presented at RecSys '18.
 
