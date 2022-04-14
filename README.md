@@ -147,6 +147,18 @@ but also took a shot with the unreproduced ones, to see why they were deemed unr
 
 *CDL* : Results from the CDL method presented at KDD '15.
 
+*Dataset:CiteULike-a*
+| Method        | REC@50 | REC@100 | REC@300 |
+|---------------|--------|---------|---------|
+| TopPopular    | 0.0038 | 0.0073  | 0.0258  |
+| UserKNN       | 0.0685 | 0.1028  | 0.1710  |
+| ItemKNN       | 0.0846 | 0.1213  | 0.1861  |
+| P^3α          | 0.0718 | 0.1079  | 0.1777  |
+| RP^3β         | 0.0800 | 0.1167  | 0.1815  |
+| ItemKNN-CBF   | 0.2135 | 0.3038  | 0.4707  |
+| ItemKNN-CFCBF | 0.1945 | 0.2896  | 0.4620  |
+| Mul-VAE       | 0.0543 | 0.1035  | 0.2627  |
+
 
 *CMN* : Results from the CMN method presented at SIGIR '18.
 
