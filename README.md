@@ -49,13 +49,13 @@ but also took a shot with the unreproduced ones, to see why they were deemed unr
 *Our results*
 | Method        | REC@50 | REC@100 | REC@300 |
 |---------------|--------|---------|---------|
-| TopPopular    | 0.0253 | 0.0389  | 0.0704  |
-| UserKNN       | 0.0026 | 0.0053  | 0.0154  |
-| ItemKNN       | 0.0026 | 0.0053  | 0.0154  |
-| P<sup>3</sup>α| 0.0026 | 0.0053  | 0.0154  |
-| RP<sup>3</sup>β| 0.0026 | 0.0053  | 0.0154  |
-| ItemKNN-CFCBF | 0.0607 | 0.0634  | 0.0730  |
-| CVAE          | 0.0779 | 0.1192  | 0.2202  |
+| TopPopular    | 0.0040 | 0.0078  | 0.0258  |
+| UserKNN       | 0.0765 | 0.1166  | 0.2013  |
+| ItemKNN       | 0.0989 | 0.1440  | 0.2301  |
+| P<sup>3</sup>α| 0.0907 | 0.1341  | 0.2206  |
+| RP<sup>3</sup>β| 0.0964 | 0.1406  | 0.2240  |
+| ItemKNN-CFCBF | 0.1905 | 0.2896  | 0.4740  |
+| CVAE          | 0.0818 | 0.1593  | 0.3742  |
 
 *NEUMF* : Results from the NeuMF method presented at WWW '17.
 
