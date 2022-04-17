@@ -1,0 +1,33 @@
+\begin{tabular}{l|cc|cc|}
+\toprule
+{} & \multicolumn{2}{c}{@ 5} & \multicolumn{2}{c}{@ 10} \vline\\
+{} &      HR &    NDCG &      HR &    NDCG \\
+\midrule
+Random                &  0.0504 &  0.0300 &  0.1007 &  0.0460 \\
+TopPop                &  0.1810 &  0.1226 &  0.2774 &  0.1537 \\
+\midrule
+UserKNN CF cosine     &  0.8332 &  0.7148 &  0.8982 &  0.7361 \\
+UserKNN CF dice       &  0.8125 &  0.6919 &  0.8836 &  0.7151 \\
+UserKNN CF jaccard    &  0.8134 &  0.6955 &  0.8838 &  0.7185 \\
+UserKNN CF asymmetric &  0.8312 &  0.7136 &  0.9004 &  0.7362 \\
+UserKNN CF tversky    &  0.8132 &  0.6960 &  0.8829 &  0.7188 \\
+ItemKNN CF cosine     &  0.8209 &  0.6995 &  0.8910 &  0.7225 \\
+ItemKNN CF dice       &  0.8083 &  0.6808 &  0.8852 &  0.7059 \\
+ItemKNN CF jaccard    &  0.8103 &  0.6823 &  0.8854 &  0.7069 \\
+ItemKNN CF asymmetric &  0.8281 &  0.7084 &  0.8957 &  0.7304 \\
+ItemKNN CF tversky    &  0.8085 &  0.6814 &  0.8883 &  0.7074 \\
+P3alpha               &  0.8280 &  0.7148 &  0.8959 &  0.7369 \\
+RP3beta               &  0.8350 &  0.7255 &  0.9013 &  0.7472 \\
+\midrule
+EASE R                &       - &       - &       - &       - \\
+SLIM BPR              &       - &       - &       - &       - \\
+SLIM ElasticNet       &       - &       - &       - &       - \\
+MF BPR                &       - &       - &       - &       - \\
+MF FunkSVD            &       - &       - &       - &       - \\
+PureSVD               &       - &       - &       - &       - \\
+NMF                   &       - &       - &       - &       - \\
+IALS                  &       - &       - &       - &       - \\
+\midrule
+CMN                   &       - &       - &       - &       - \\
+\bottomrule
+\end{tabular}

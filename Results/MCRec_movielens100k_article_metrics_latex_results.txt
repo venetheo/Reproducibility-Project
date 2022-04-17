@@ -1,0 +1,45 @@
+\begin{tabular}{l|ccc|}
+\toprule
+{} & \multicolumn{3}{c}{@ 10} \vline\\
+{} &             PREC &              REC &             NDCG \\
+\midrule
+Random                   &                - &                - &                - \\
+TopPop                   &           0.1907 &           0.1180 &           0.2184 \\
+\midrule
+UserKNN CF cosine        &  \textbf{0.3370} &  \textbf{0.2097} &  \textbf{0.3917} \\
+UserKNN CF dice          &  \textbf{0.3475} &  \textbf{0.2221} &  \textbf{0.4180} \\
+UserKNN CF jaccard       &  \textbf{0.3430} &  \textbf{0.2194} &  \textbf{0.4146} \\
+UserKNN CF asymmetric    &  \textbf{0.3460} &  \textbf{0.2218} &  \textbf{0.4161} \\
+UserKNN CF tversky       &  \textbf{0.3444} &  \textbf{0.2240} &  \textbf{0.4186} \\
+ItemKNN CF cosine        &  \textbf{0.3373} &  \textbf{0.2235} &  \textbf{0.4065} \\
+ItemKNN CF dice          &  \textbf{0.3221} &  \textbf{0.2075} &  \textbf{0.3802} \\
+ItemKNN CF jaccard       &  \textbf{0.3199} &           0.2025 &  \textbf{0.3759} \\
+ItemKNN CF asymmetric    &  \textbf{0.3367} &  \textbf{0.2214} &  \textbf{0.4006} \\
+ItemKNN CF tversky       &  \textbf{0.3054} &           0.2007 &  \textbf{0.3680} \\
+P3alpha                  &  \textbf{0.3361} &  \textbf{0.2200} &  \textbf{0.4073} \\
+RP3beta                  &  \textbf{0.3454} &  \textbf{0.2230} &  \textbf{0.4118} \\
+\midrule
+EASE R                   &                - &                - &                - \\
+SLIM BPR                 &                - &                - &                - \\
+SLIM ElasticNet          &                - &                - &                - \\
+MF BPR                   &                - &                - &                - \\
+MF FunkSVD               &                - &                - &                - \\
+PureSVD                  &                - &                - &                - \\
+NMF                      &                - &                - &                - \\
+IALS                     &                - &                - &                - \\
+\midrule
+ItemKNN CBF cosine       &           0.0710 &           0.0359 &           0.0832 \\
+ItemKNN CBF dice         &           0.0727 &           0.0361 &           0.0844 \\
+ItemKNN CBF jaccard      &           0.0740 &           0.0366 &           0.0843 \\
+ItemKNN CBF asymmetric   &           0.0772 &           0.0391 &           0.0886 \\
+ItemKNN CBF tversky      &           0.0693 &           0.0337 &           0.0805 \\
+\midrule
+ItemKNN CFCBF cosine     &  \textbf{0.3447} &  \textbf{0.2253} &  \textbf{0.4109} \\
+ItemKNN CFCBF dice       &  \textbf{0.3255} &           0.2024 &  \textbf{0.3775} \\
+ItemKNN CFCBF jaccard    &  \textbf{0.3210} &  \textbf{0.2095} &  \textbf{0.3809} \\
+ItemKNN CFCBF asymmetric &  \textbf{0.3423} &  \textbf{0.2227} &  \textbf{0.4070} \\
+ItemKNN CFCBF tversky    &  \textbf{0.3199} &           0.2040 &  \textbf{0.3770} \\
+\midrule
+MCRec                    &           0.3047 &           0.2046 &           0.3617 \\
+\bottomrule
+\end{tabular}
