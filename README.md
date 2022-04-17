@@ -172,6 +172,16 @@ but also took a shot with the unreproduced ones, to see why they were deemed unr
 | RP<sup>3</sup>β| 0.8226 | 0.7114 | 0.8941 | 0.7347  |
 | CMN        | 0.8069 | 0.6666 | 0.8910 | 0.6942  |
 
+*Our results*
+| Method     | HR@5   | NDCG@5 | HR@10  | NDCG@10 |
+|------------|--------|--------|--------|---------|
+| TopPopular | 0.1810 | 0.1226 | 0.2774 | 0.1537  |
+| UserKNN    | 0.8332 | 0.7148 | 0.8982 | 0.7361  |
+| ItemKNN    | 0.8209 | 0.6995 | 0.8910 | 0.7225  |
+| P<sup>3</sup>α| 0.8280 | 0.7148 | 0.8959 | 0.7369  |
+| RP<sup>3</sup>β| 0.8350 | 0.7255 | 0.9013 | 0.7472  |
+| CMN        |  |  |  |   |
+
 
 *Dataset:Pinterest*
 | Method     | HR@5   | NDCG@5 | HR@10  | NDCG@10 |
@@ -183,6 +193,16 @@ but also took a shot with the unreproduced ones, to see why they were deemed unr
 | RP<sup>3</sup>β| 0.7018 | 0.5041 | 0.8644 | 0.5571  |
 | CMN        | 0.6872 | 0.4883 | 0.8549 | 0.5430  |
 
+*Our results*
+| Method     | HR@5   | NDCG@5 | HR@10  | NDCG@10 |
+|------------|--------|--------|--------|---------|
+| TopPopular | 0.1665 | 0.1064 | 0.2740 | 0.1409  |
+| UserKNN    | 0.7045 | 0.5060 | 0.8670 | 0.5589  |
+| ItemKNN    | 0.7126 | 0.5118 | 0.8778 | 0.5656  |
+| P<sup>3</sup>α| 0.7025 | 0.5041 | 0.8657 | 0.5574  |
+| RP<sup>3</sup>β| 0.7160 | 0.5162 | 0.8795 | 0.5694  |
+| CMN        |  |  |  |   |
+
 *Dataset:Epinions*
 | Method     | HR@5   | NDCG@5 | HR@10  | NDCG@10 |
 |------------|--------|--------|--------|---------|
@@ -192,6 +212,16 @@ but also took a shot with the unreproduced ones, to see why they were deemed unr
 | P<sup>3</sup>α| 0.3510 | 0.2989 | 0.3891 | 0.3112  |
 | RP<sup>3</sup>β| 0.3511 | 0.2980 | 0.3892 | 0.3103  |
 | CMN        | 0.4195 | 0.3346 | 0.4953 | 0.3592  |
+
+*Our results*
+| Method     | HR@5   | NDCG@5 | HR@10  | NDCG@10 |
+|------------|--------|--------|--------|---------|
+| TopPopular | 0.5486 | 0.4187 | 0.6678 | 0.4573  |
+| UserKNN    | 0.4316 | 0.3663 | 0.4783 | 0.3815  |
+| ItemKNN    | 0.4323 | 0.3610 | 0.4877 | 0.3790  |
+| P<sup>3</sup>α| 0.4026 | 0.3445 | 0.4412 | 0.3569  |
+| RP<sup>3</sup>β| 0.4026 | 0.3446 | 0.4412 | 0.3570  |
+| CMN        |  |  |  |   |
 
 
 *Extension ConvMF* : Results attempting to reproduce the paper by Donghyun Kim et al (One of the papers, the work by Ferrari could not reproduce).
